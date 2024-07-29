@@ -1,0 +1,65 @@
+   .container {
+    max-width: 1200px;
+  }
+  
+  .search-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    display: flex;
+  }
+  
+  .resume-list {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .resume-item {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .resume-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  .resume-section {
+    margin-bottom: 10px;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .delete-button:focus {
+    outline: none;
+  }
+  
+  .selected-resume {
+    flex: 1;
+    background-color: #e9ecef;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  

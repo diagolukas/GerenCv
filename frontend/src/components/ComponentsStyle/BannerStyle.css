@@ -1,0 +1,16 @@
+.banner{
+    margin: auto;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+
+.text{
+    text-align: center;
+}
+
+.image-container{
+    position: relative;
+    top: -120px;
+    clip-path: inset(120px 0 0px 0px);
+}

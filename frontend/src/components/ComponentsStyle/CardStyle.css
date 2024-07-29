@@ -1,0 +1,15 @@
+.card{
+    max-width: 500px;
+    width: 400px;
+    align-items: center;
+}
+
+.cont{
+    width: 95%;
+    margin: 50px;
+    padding: 50px;
+}
+
+.background{
+    background-color: rgb(238, 238, 238);
+}
